@@ -1,0 +1,480 @@
+[04-Jan-2016 13:50:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'mysql.bbb.firespike.com' (0)' in /home/peterdayton/public_html/manage/inc/fe-config.php:18
+Stack trace:
+#0 /home/peterdayton/public_html/manage/inc/fe-config.php(18): PDO->__construct('mysql:host=mysq...', 'bobthebuilder', '!ReSuBdBbB999', Array)
+#1 /home/peterdayton/public_html/manage/inc/config.php(47): include('/home/peterdayt...')
+#2 /home/peterdayton/public_html/manage/login.php(1): include('/home/peterdayt...')
+#3 {main}
+  thrown in /home/peterdayton/public_html/manage/inc/fe-config.php on line 18
+[04-Jan-2016 14:38:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content' in 'field list'' in /home/peterdayton/public_html/manage/press.php:106
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(106): PDO->query('INSERT INTO pre...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 106
+[04-Jan-2016 14:39:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content' in 'field list'' in /home/peterdayton/public_html/manage/press.php:106
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(106): PDO->query('INSERT INTO pre...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 106
+[04-Jan-2016 14:47:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  gallery...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:49:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  gallery...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:49:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  gallery...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:50:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  gallery...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:50:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  gallery...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:50:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  press S...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[04-Jan-2016 14:50:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/press.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/press.php(9): PDO->query('UPDATE  press S...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/press.php on line 9
+[05-Jan-2016 09:28:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peterday_db.bio' doesn't exist' in /home/peterdayton/public_html/manage/bio.php:116
+Stack trace:
+#0 /home/peterdayton/public_html/manage/bio.php(116): PDO->query('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/bio.php on line 116
+[06-Jan-2016 06:23:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:135
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(135): PDO->query('UPDATE cat SET ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 135
+[06-Jan-2016 06:23:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:136
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(136): PDO->query('UPDATE cat SET ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 136
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' in /home/peterdayton/public_html/manage/inc/config.php on line 16
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant _x - assumed '_x' in /home/peterdayton/public_html/manage/inc/config.php on line 21
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant _y - assumed '_y' in /home/peterdayton/public_html/manage/inc/config.php on line 22
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/peterdayton/public_html/manage/inc/config.php on line 23
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant y - assumed 'y' in /home/peterdayton/public_html/manage/inc/config.php on line 24
+[06-Jan-2016 06:28:18 America/Chicago] PHP Warning:  array_walk() expects parameter 2 to be a valid callback, function 'cleanText' not found or invalid function name in /home/peterdayton/public_html/manage/inc/config.php on line 25
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant is_ajax - assumed 'is_ajax' in /home/peterdayton/public_html/manage/inc/config.php on line 34
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Undefined index: is_ajax in /home/peterdayton/public_html/manage/inc/config.php on line 34
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant cleanQuery - assumed 'cleanQuery' in /home/peterdayton/public_html/manage/inc/config.php on line 53
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant cleanText - assumed 'cleanText' in /home/peterdayton/public_html/manage/inc/config.php on line 67
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant rePrepared - assumed 'rePrepared' in /home/peterdayton/public_html/manage/inc/config.php on line 76
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant gallery - assumed 'gallery' in /home/peterdayton/public_html/manage/gallery.php on line 5
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant cats - assumed 'cats' in /home/peterdayton/public_html/manage/gallery.php on line 16
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant deleteImage - assumed 'deleteImage' in /home/peterdayton/public_html/manage/gallery.php on line 29
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Undefined index: deleteImage in /home/peterdayton/public_html/manage/gallery.php on line 29
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Undefined index: filename in /home/peterdayton/public_html/manage/gallery.php on line 47
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant DELETE - assumed 'DELETE' in /home/peterdayton/public_html/manage/gallery.php on line 92
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant DELETECAT - assumed 'DELETECAT' in /home/peterdayton/public_html/manage/gallery.php on line 105
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant x - assumed 'x' in /home/peterdayton/public_html/manage/gallery.php on line 122
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant y - assumed 'y' in /home/peterdayton/public_html/manage/gallery.php on line 123
+[06-Jan-2016 06:28:18 America/Chicago] PHP Notice:  Use of undefined constant cat - assumed 'cat' in /home/peterdayton/public_html/manage/gallery.php on line 125
+[06-Jan-2016 06:28:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/peterdayton/public_html/manage/inc/config.php:16) in /home/peterdayton/public_html/manage/gallery.php on line 137
+[06-Jan-2016 06:51:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:316
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(316): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 316
+[06-Jan-2016 06:57:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:317
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(317): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 317
+[06-Jan-2016 08:15:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '_order' in 'order clause'' in /home/peterdayton/public_html/manage/sliders.php:158
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(158): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 158
+[06-Jan-2016 08:23:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_order' in 'field list'' in /home/peterdayton/public_html/manage/sliders.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(9): PDO->query('UPDATE  slider ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 9
+[06-Jan-2016 08:24:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_order' in 'field list'' in /home/peterdayton/public_html/manage/sliders.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(9): PDO->query('UPDATE  slider ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 9
+[06-Jan-2016 08:24:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_order' in 'field list'' in /home/peterdayton/public_html/manage/sliders.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(9): PDO->query('UPDATE  slider ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 9
+[06-Jan-2016 08:50:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column '_order' in order clause is ambiguous' in /home/peterdayton/public_html/manage/sliders.php:159
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(159): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 159
+[06-Jan-2016 08:50:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column '_order' in order clause is ambiguous' in /home/peterdayton/public_html/manage/sliders.php:160
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(160): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 160
+[06-Jan-2016 08:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/sliders.php:177
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(177): PDO->query('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 177
+[11-Jan-2016 13:05:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/peterdayton/public_html/manage/gallery.php on line 172
+[11-Jan-2016 13:16:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[11-Jan-2016 13:16:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[11-Jan-2016 13:16:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[11-Jan-2016 13:17:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 19:58:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tag' in 'field list'' in /home/peterdayton/public_html/manage/gallery.php:65
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(65): PDO->query('INSERT INTO ima...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 65
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Jan-2016 20:00:22 America/Chicago] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Jan-2016 06:36:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[12-Jan-2016 06:37:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/peterdayton/public_html/manage/gallery.php:9
+Stack trace:
+#0 /home/peterdayton/public_html/manage/gallery.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/gallery.php on line 9
+[13-Jan-2016 16:03:55 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/peterdayton/public_html/manage/sliders.php:87
+Stack trace:
+#0 /home/peterdayton/public_html/manage/sliders.php(87): PDO->query('UPDATE slider S...')
+#1 {main}
+  thrown in /home/peterdayton/public_html/manage/sliders.php on line 87
+[11-Mar-2016 09:00:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rdlgfoun_db.app' doesn't exist' in /home/rdlgfounduser/public_html/manage/applications.php:159
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/applications.php(159): PDO->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/applications.php on line 159
+[11-Mar-2016 09:00:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'app.cat_id' in 'on clause'' in /home/rdlgfounduser/public_html/manage/applications.php:159
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/applications.php(159): PDO->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/applications.php on line 159
+[11-Mar-2016 09:03:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'app.cat_id' in 'on clause'' in /home/rdlgfounduser/public_html/manage/applications.php:159
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/applications.php(159): PDO->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/applications.php on line 159
+[11-Mar-2016 09:04:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list'' in /home/rdlgfounduser/public_html/manage/applications.php:107
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/applications.php(107): PDO->query('INSERT INTO app...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/applications.php on line 107
+[11-Mar-2016 09:07:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'' in /home/rdlgfounduser/public_html/manage/applications.php:57
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/applications.php(57): PDO->query('UPDATE app SET ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/applications.php on line 57
+[11-Mar-2016 09:13:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quote' in 'field list'' in /home/rdlgfounduser/public_html/manage/press.php:86
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/press.php(86): PDO->query('UPDATE press SE...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/press.php on line 86
+[11-Mar-2016 09:35:57 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider.cat_id' in 'on clause'' in /home/rdlgfounduser/public_html/manage/sliders.php:160
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/sliders.php(160): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/sliders.php on line 160
+[11-Mar-2016 09:36:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider.cat_id' in 'on clause'' in /home/rdlgfounduser/public_html/manage/sliders.php:160
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/sliders.php(160): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/sliders.php on line 160
+[11-Mar-2016 09:36:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider.cat_id' in 'on clause'' in /home/rdlgfounduser/public_html/manage/sliders.php:160
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/sliders.php(160): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/sliders.php on line 160
+[11-Mar-2016 09:37:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'date' in 'order clause'' in /home/rdlgfounduser/public_html/manage/sliders.php:163
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/sliders.php(163): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/sliders.php on line 163
+[11-Mar-2016 10:04:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[edit],'Cute-Wallpapers-cute-kittens-10501745-1600-1200_1457712286.jpg',0)' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:47
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(47): PDO->query('INSERT INTO ima...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 47
+[11-Mar-2016 10:06:34 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  portfol...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:07:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:08:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:09:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:09:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:09:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:09:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:10:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:11:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:12:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:9
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(9): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 9
+[11-Mar-2016 10:12:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_ajax' in 'field list'' in /home/rdlgfounduser/public_html/manage/portfolios.php:114
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(114): PDO->query('INSERT INTO por...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 114
+[11-Mar-2016 10:13:49 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_ajax' in 'field list'' in /home/rdlgfounduser/public_html/manage/portfolios.php:115
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(115): PDO->query('INSERT INTO por...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 115
+[11-Mar-2016 10:14:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_ajax' in 'field list'' in /home/rdlgfounduser/public_html/manage/portfolios.php:116
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(116): PDO->query('INSERT INTO por...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 116
+[11-Mar-2016 10:16:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleteImage' in 'field list'' in /home/rdlgfounduser/public_html/manage/portfolios.php:93
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(93): PDO->query('UPDATE portfoli...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 93
+[23-Mar-2016 12:02:41 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 12:02:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:2) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 12:11:51 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 12:11:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:2) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 14:56:44 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 14:56:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:2) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 2
+[23-Mar-2016 15:48:34 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[23-Mar-2016 15:48:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[23-Mar-2016 15:48:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[23-Mar-2016 15:48:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 07:47:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:16
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(16): PDO->query('UPDATE  portfol...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 16
+[24-Mar-2016 07:47:34 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:16
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(16): PDO->query('UPDATE  portfol...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 16
+[24-Mar-2016 07:48:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:17
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(17): PDO->query('UPDATE  portfol...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 17
+[24-Mar-2016 07:48:27 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:17
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(17): PDO->query('UPDATE  portfol...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 17
+[24-Mar-2016 07:51:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/rdlgfounduser/public_html/manage/portfolios.php on line 305
+[24-Mar-2016 07:52:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/rdlgfounduser/public_html/manage/portfolios.php on line 300
+[24-Mar-2016 07:52:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/rdlgfounduser/public_html/manage/portfolios.php on line 390
+[24-Mar-2016 08:00:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:00:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:01:25 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:01:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:03:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:03:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:04:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_530a190fae0806f822b0d990a70cdcc9, O_RDWR) failed: Permission denied (13) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[24-Mar-2016 08:04:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/rdlgfounduser/public_html/manage/inc/config.php:3) in /home/rdlgfounduser/public_html/manage/inc/config.php on line 3
+[25-Mar-2016 14:54:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 14:54:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 14:54:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 14:55:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 14:55:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 14:55:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
+[25-Mar-2016 15:18:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/rdlgfounduser/public_html/manage/portfolios.php:8
+Stack trace:
+#0 /home/rdlgfounduser/public_html/manage/portfolios.php(8): PDO->query('UPDATE  images ...')
+#1 {main}
+  thrown in /home/rdlgfounduser/public_html/manage/portfolios.php on line 8
