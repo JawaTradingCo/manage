@@ -1,0 +1,224 @@
+html,  body {
+	height: 100%;
+}
+.row {
+	text-align: center;
+	padding: 20px 0px;
+}
+.second-row,  .fifth-row {
+	background: #6eb0cc;
+}
+.second-row h3,  .sixth-row h3,  .second-row .col-sm-4 .col-sm-12 {
+	color: white;
+}
+.third-row {
+	background: #E1E1E1;
+}
+.third-row h3 {
+	color: black;
+	margin: 5px 0px 15px 0px;
+}
+.third-row .col-sm-8 {
+	padding-left: 0px;
+}
+.third-row .col-sm-4 {
+	padding-right: 0px;
+}
+.sixth-row {
+	background: #00638F;
+	color: white;
+}
+.star-box {
+	padding: 10px 0px;
+	background: #E1E1E1;
+	border-radius: 15px;
+	min-height: 200px;
+	position: relative;
+}
+.star-box1,  .rocket1 {
+	top: 15px;
+}
+.star-box2,  .rocket2 {
+	top: -100px;
+}
+.star {
+ background-image: url(../images/landers/profile/star.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -18px;
+	left: -18px;
+}
+.rocket-box {
+	background: #00638F;
+	color: white;
+}
+.rocket-box h3 {
+	color: white;
+}
+.tab-btn {
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.tab-btn:hover {
+	cursor: pointer;
+	color: white;
+}
+.tab-btn.active:hover {
+	color: inherit;
+}
+.tab-btn.active {
+	background: white;
+}
+.pane.active {
+	display: block;
+}
+.pane-container {
+	height: 100%;
+}
+.pane {
+	display: none;
+	background: white;
+	min-height: 200px;
+	height: 100%;
+	padding: 5px;
+}
+img.map {
+	width: 50%;
+	margin: auto;
+}
+.icon {
+	background: lightgrey;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-position: center center;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+img.check {
+	display: inline-block;
+	width: 5%;
+}
+.checkcontainer {
+	text-align: left;
+	margin: auto;
+}
+.checkcontainer .col-sm-12 {
+	margin-top: 5px;
+}
+.checkboxes {
+	font-size: 18px;
+}
+.checkboxes img.check {
+	width: 30px;
+}
+.btn {
+	font-size: 14px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.btn-blue {
+	background: #00638F;
+	color: white;
+	padding: 5px 35px;
+}
+.star-box h3 {
+	font-weight: bold;
+}
+.star-box1 h3 {
+	color: #8dba15;
+}
+.star-box2 h3 {
+	color: #f7880d;
+}
+.rocket1,  .rocket2,  .rocket0 {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.rocket1,  .rocket2 {
+	position: relative;
+}
+.rocket0 {
+	position: absolute;
+}
+.exhaust {
+	position: relative;
+	margin-top: -140px;
+	z-index: -1;
+	margin-left: 30px;
+}
+
+@media (min-width: 1190px) {
+.container {
+	width: 992px;
+}
+.exhaust {
+	margin-top: -165px;
+}
+}
+
+@media (max-width: 992px) {
+.star-box {
+	min-height: 290px;
+}
+.star-box1,  .rocket1 {
+	top: -100px;
+}
+.star-box2,  .rocket2 {
+	top: -200px;
+}
+.exhaust {
+	margin-top: -270px;
+}
+}
+
+@media (max-width: 767px) {
+.star-box {
+	min-height: 100%;
+}
+.tab-btn {
+	margin-left: -15px;
+	width: 100%;
+	border: 1px solid white;
+}
+.star-box,  .rocket-box {
+	float: none!important;
+	margin: 15px 0px;
+	position: static;
+}
+.star {
+	left: 0px;
+}
+.checkboxes .col-sm-3 {
+	text-align: left;
+}
+.rocket1,  .rocket2,  .rocket0, .exhaust {
+	display: none;
+}
+.checkcontainer {
+	width: 50%;
+	margin: auto;
+}
+}
+
+@media (max-width: 635px) {
+.checkcontainer {
+	width: 80%;
+	margin: auto;
+}
+}
+
+@media (max-width: 377px) {
+.checkcontainer {
+	width: 100%;
+	margin: auto;
+}
+}
